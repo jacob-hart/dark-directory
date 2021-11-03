@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-  <div id="menu">
+  <!-- <div id="menu">
     <div id="brand">
       <router-link to="/">
         <img src="/images/logo.png">
@@ -20,10 +20,14 @@
         </div>
       </router-link>
     </div>
+  </div> -->
+  <div class="container mt-3">
+    <router-view />
   </div>
-  <router-view />
-  <footer>
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/BYU-CS-260-Spring-2021/lab-3b-grocery-store-jacob-hart">Repository</a>
+  <footer class="text-center fixed-bottom bg-light">
+    <div class="text-center p-1">
+      <a class="text-muted stretched-link" target="_blank" rel="noopener noreferrer" href="https://github.com/jacob-hart/dark-directory"><small>Source</small></a>
+    </div>
   </footer>
 </div>
 </template>
@@ -31,15 +35,6 @@
 <script>
 export default {
   name: 'App',
-  computed: {
-    cartSizeString() {
-      let size = this.$root.$data.cart.length;
-      if (size == 1) { // 1 item, not 1 items
-        return size.toString() + " item";
-      }
-      return size.toString() + " items";
-    }
-  },
 }
 </script>
 
@@ -49,8 +44,7 @@ export default {
 }
 
 body {
-  margin: 50px 100px;
-
+  /*background-color: black;*/
 }
 
 #menu {

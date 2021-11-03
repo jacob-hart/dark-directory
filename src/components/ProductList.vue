@@ -5,7 +5,7 @@
       <div class="card-body">
         <h5 class="card-title mb-2">{{product.name}}</h5>
         <h6 class="card-text mb-2 text-success">{{product.dark}}</h6>
-        <a href="#" class="card-text text-muted stretched-link">{{product.context.slice(0, 40).trim() + "..."}}</a>
+        <router-link :to="'/product/' + product.id" class="card-text text-muted stretched-link">{{product.context.slice(0, 40).trim() + "..."}}</router-link>
       </div>
     </div>
   </div>
