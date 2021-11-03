@@ -1,10 +1,8 @@
 <template>
 <div>
-  <form>
-    <div class="form-group">
-      <input class="form-control form-control-lg" v-model="searchText" />
-    </div>
-  </form>
+  <!-- <h5>Does</h5> -->
+  <input class="form-control form-control-lg" v-model="searchText" autofocus/>
+  <!-- <h5>have a dark theme?</h5> -->
   <ProductList :products="products" />
 </div>
 </template>
