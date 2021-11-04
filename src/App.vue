@@ -24,9 +24,9 @@
   <div class="container mt-3">
     <router-view />
   </div>
-  <footer class="text-center fixed-bottom bg-light">
+  <footer class="text-center fixed-bottom bg-dark">
     <div class="text-center p-1">
-      <a class="text-muted stretched-link" target="_blank" rel="noopener noreferrer" href="https://github.com/jacob-hart/dark-directory"><small>Source</small></a>
+      <a class="text-light stretched-link" target="_blank" rel="noopener noreferrer" href="https://github.com/jacob-hart/dark-directory"><small>Source</small></a>
     </div>
   </footer>
 </div>
@@ -44,7 +44,7 @@ export default {
 }
 
 body {
-  /*background-color: black;*/
+  background-color: #212529;
 }
 
 #menu {

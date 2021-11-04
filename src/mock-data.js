@@ -22,6 +22,12 @@ let mock = [{
     dark: "1",
     context: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
+  {
+    id: 5,
+    name: "this website",
+    dark: "2",
+    context: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
 ]
 
 export default mock;
