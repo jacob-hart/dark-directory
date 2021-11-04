@@ -24,9 +24,9 @@
   <div class="container mt-3" style="margin-bottom: 60px;">
     <router-view />
   </div>
-  <footer class="text-center fixed-bottom bg-dark">
-    <div class="text-center p-1">
-      <a class="text-light stretched-link" target="_blank" rel="noopener noreferrer" href="https://github.com/jacob-hart/dark-directory"><small>Source</small></a>
+  <footer class="text-center fixed-bottom">
+    <div class="text-center p-3">
+      <a class="text-light stretched-link" target="_blank" rel="noopener noreferrer" href="https://github.com/jacob-hart/dark-directory">Source</a>
     </div>
   </footer>
 </div>
@@ -39,6 +39,9 @@ export default {
 </script>
 
 <style>
+footer {
+  background-color: #212529;
+}
 * {
   box-sizing: border-box;
 }
