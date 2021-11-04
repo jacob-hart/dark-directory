@@ -25,7 +25,7 @@ let mock = [{
     id: 4,
     name: "Apple macOS",
     dark: "1",
-    context: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    context: "System Preferences → General → Appearance. Also supports accent color customization."
   },
   {
     id: 5,
