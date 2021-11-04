@@ -21,7 +21,7 @@
       </router-link>
     </div>
   </div> -->
-  <div class="container mt-3" style="margin-bottom: 60px;">
+  <div class="container mt-4" style="margin-bottom: 60px;">
     <router-view />
   </div>
   <footer class="text-center fixed-bottom">
